@@ -1,0 +1,11 @@
+C:\Users\alexa\source\repos\GatewareTeste\GatewareTeste\bin\Debug\netcoreapp2.2\GatewareTeste.deps.json
+C:\Users\alexa\source\repos\GatewareTeste\GatewareTeste\bin\Debug\netcoreapp2.2\GatewareTeste.runtimeconfig.json
+C:\Users\alexa\source\repos\GatewareTeste\GatewareTeste\bin\Debug\netcoreapp2.2\GatewareTeste.runtimeconfig.dev.json
+C:\Users\alexa\source\repos\GatewareTeste\GatewareTeste\bin\Debug\netcoreapp2.2\GatewareTeste.dll
+C:\Users\alexa\source\repos\GatewareTeste\GatewareTeste\bin\Debug\netcoreapp2.2\GatewareTeste.pdb
+C:\Users\alexa\source\repos\GatewareTeste\GatewareTeste\obj\Debug\netcoreapp2.2\GatewareTeste.csprojAssemblyReference.cache
+C:\Users\alexa\source\repos\GatewareTeste\GatewareTeste\obj\Debug\netcoreapp2.2\GatewareTeste.csproj.CoreCompileInputs.cache
+C:\Users\alexa\source\repos\GatewareTeste\GatewareTeste\obj\Debug\netcoreapp2.2\GatewareTeste.AssemblyInfoInputs.cache
+C:\Users\alexa\source\repos\GatewareTeste\GatewareTeste\obj\Debug\netcoreapp2.2\GatewareTeste.AssemblyInfo.cs
+C:\Users\alexa\source\repos\GatewareTeste\GatewareTeste\obj\Debug\netcoreapp2.2\GatewareTeste.dll
+C:\Users\alexa\source\repos\GatewareTeste\GatewareTeste\obj\Debug\netcoreapp2.2\GatewareTeste.pdb

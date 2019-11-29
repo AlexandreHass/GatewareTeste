@@ -1,0 +1,59 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v2.2",
+    "signature": "5ba96bfb0fbb5e0089901cded397ec4a3f7134cd"
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v2.2": {
+      "GatewareTeste/1.0.0": {
+        "dependencies": {
+          "libphonenumber-csharp": "8.10.23"
+        },
+        "runtime": {
+          "GatewareTeste.dll": {}
+        }
+      },
+      "libphonenumber-csharp/8.10.23": {
+        "dependencies": {
+          "System.Collections.Immutable": "1.6.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/PhoneNumbers.dll": {
+            "assemblyVersion": "8.10.23.0",
+            "fileVersion": "8.10.23.0"
+          }
+        }
+      },
+      "System.Collections.Immutable/1.6.0": {
+        "runtime": {
+          "lib/netstandard2.0/System.Collections.Immutable.dll": {
+            "assemblyVersion": "1.2.4.0",
+            "fileVersion": "4.700.19.46214"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "GatewareTeste/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "libphonenumber-csharp/8.10.23": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-kb3dJDK+cuGmAhGPDlqUPJ+Niar4r3xDcThj3I+LSzjZw2nKCNGdETZOIyDK52rdqLZMi+wBmC+TDkMsrJbE3Q==",
+      "path": "libphonenumber-csharp/8.10.23",
+      "hashPath": "libphonenumber-csharp.8.10.23.nupkg.sha512"
+    },
+    "System.Collections.Immutable/1.6.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-+aL946rTSJyo4PqstwsVZ5RBfaxfkIx+nTMfpmaxzorqgifRJwndBZhXPWNWGJpys7cQ1/vCvilYN9ugM05JFA==",
+      "path": "system.collections.immutable/1.6.0",
+      "hashPath": "system.collections.immutable.1.6.0.nupkg.sha512"
+    }
+  }
+}

@@ -1,0 +1,41 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+</head>
+<body>
+    <button id="popular">Popular dropdown</button>
+    <br><br>
+    <select id="locality-dropdown" name="locality">
+    </select>
+
+    <script src="https://code.jquery.com/jquery-latest.min.js"></script>
+
+    <script>
+        $("#popular").click(function (){
+            let dropdown = $('#locality-dropdown');
+
+            dropdown.empty();
+
+            dropdown.append('<option selected="true" disabled>Escolha a Cidade</option>');
+            dropdown.prop('selectedIndex', 0);
+    
+            const url = 'CidadesCanada.json';
+            $.ajax({
+                type : "GET",
+                dataType : "jsonp",
+                url : url,
+                success: function(data){
+                    $.each(data, function (key, entry) {
+                        dropdown.append($('<option></option>').attr('value', entry.abbreviation).text(entry.name));
+                    });
+                }
+            });
+        });
+    </script>
+
+</body>
+</html>
+
